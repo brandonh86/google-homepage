@@ -1,3 +1,91 @@
-body {
+* {
+    font-family: Roboto, sans-serif, Arial;
+    font-size: 0.98em;
+}
+
+div {
     display: flex;
+    flex-flow: row wrap;
+    flex: 1 100%;
+    justify-content: space-between;
+}
+
+a {
+    color: red;
+}
+
+#appbutton {
+    width: 2em;
+    max-width: 2em;
+    height: auto;
+}
+
+#g-icon {
+    border-radius: 30px;
+}
+
+#top-span {
+    width: 75vw;
+    max-width: 75vw;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #000000;
+    padding: 1em;
+}
+
+#div-logo {
+    margin-top: 10.7vw;
+    justify-content: center;
+}
+
+#div-search {
+    margin: 2vw;
+    justify-content: center;
+}
+
+#search-bar {
+    width: 33vw;
+    height: 2.5vw;
+  /*  margin-left: 0vw; */
+    border: 1px solid grey;
+    border-radius: 30px;
+}
+
+.search-buttons-div {
+    justify-content: center;
+}
+
+.search-buttons {
+    background-color: #f8f9fa;
+    margin: 1.5vw 5px;
+    border-radius: 5px;
+}
+
+#div-ad {
+    justify-content: center;
+    margin-top: -50px;
+    font-size: 0.9em;
+}
+
+#div-footer {
+    background-color: #f8f9fa;
+}
+
+#footer-carbon-button {
+    position: relative;
+    width: 60vw;
+    max-width: 60vw;
+    text-align: center;
+}
+
+.footer-buttons {
+    max-height: 1vw;
+}
+
+#div-footer {
+    position: absolute;
+    bottom: 0;
+    width: 99.5%;
 }

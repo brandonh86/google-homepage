@@ -2,6 +2,7 @@
 <html>
     <head> <!--This is me testing how to make comments-->
         <link rel="stylesheet" href="CSS/stylesheet.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
         <meta charset="UTF-8">
         <meta name="description" content="Google homepage replica">
         <meta name="author" content="Brandon">
@@ -10,14 +11,14 @@
     </head>
     <body class="main-cont">
         <div class="div-cont" id="div-header">
-            <a href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" target="_blank">About</a>
-            <a href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" target="_blank">Store</a>
-            <span></span>
-            <a href="https://mail.google.com/mail/&ogbl" target="_blank">Gmail</a>
-            <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
-            <a>*icon*</a> <!--placeholder icon for Google apps-->
-            <a href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/" target="_blank"><img id="g-icon" src="https://lh3.googleusercontent.com/ogw/ADea4I4XeFYwt6AToq2JmJSOwpmP9gitMYRv771vQG9h=s32-c-mo"></a>
-
+                <a class="top-buttons" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header" target="_blank">About</a>
+                <a class="top-buttons" href="https://store.google.com/US?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US" target="_blank">Store</a>
+                <span id="top-span"></span>
+                <a class="top-buttons" href="https://mail.google.com/mail/&ogbl" target="_blank">Gmail</a>
+                <a class="top-buttons" href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
+                <a class="top-buttons" href="https://www.google.com/intl/en/about/products"><img id="appbutton" src="https://cdn.gtricks.com/2016/01/Chrome-App-Launcher-icon-1280x720.png"></a> <!--placeholder icon for Google apps-->
+                <a class="top-buttons" href="https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/" target="_blank"><img id="g-icon" src="https://lh3.googleusercontent.com/ogw/ADea4I4XeFYwt6AToq2JmJSOwpmP9gitMYRv771vQG9h=s32-c-mo"></a>
+        </div>
         <div class="div-cont" id="div-logo">
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         </div>
@@ -25,25 +26,27 @@
         <div class="div-cont" id="div-search">
             <form>
                 <label>
-                    <input type="search">
+                    <input id="search-bar" type="search">
                 </label>
-                <a href="https://yt3.ggpht.com/ytc/AAUvwniQnSWCntU5FpkgEeMsqpKqRq9d1nGZ-GwKM6iaOA=s900-c-k-c0x00ffffff-no-rj">Google Search</a> <!--Don't know how to copy functionality, so using alt link-->
-                <a href="https://yt3.ggpht.com/ytc/AAUvwniYqPLMSZH-QyPKXV7Wbfs8GY3P6I1MUjrM7LaMkg=s900-c-k-c0x00ffffff-no-rj">I'm Feeling Lucky</a> <!--Don't know how to copy functionality, so using alt link-->
+                <div class="search-buttons-div">
+                <a class="search-buttons" href="https://yt3.ggpht.com/ytc/AAUvwniQnSWCntU5FpkgEeMsqpKqRq9d1nGZ-GwKM6iaOA=s900-c-k-c0x00ffffff-no-rj">Google Search</a> <!--Don't know how to copy functionality, so using alt link-->
+                <a class="search-buttons" href="https://yt3.ggpht.com/ytc/AAUvwniYqPLMSZH-QyPKXV7Wbfs8GY3P6I1MUjrM7LaMkg=s900-c-k-c0x00ffffff-no-rj">I'm Feeling Lucky</a> <!--Don't know how to copy functionality, so using alt link-->
+                </div>
             </form>
         </div>
 
         <div class="div-cont" id="div-ad">
-            <p>Help kids <a href="https://www.google.com/url?q=https://beinternetawesome.withgoogle.com/en_us%3Futm_source%3Dgoogle%26utm_medium%3Dhpp%26utm_campaign%3DBIA%2520Curriculum%2520Refresh%25201&source=hpp&id=19024365&ct=3&usg=AFQjCNEQuG1inSgkvTPHfZBUNbaET5GeKQ&sa=X&ved=0ahUKEwjb29vg2ZzxAhVCGDQIHUcVDeYQ8IcBCBA" target="_blank">Be Internet Awesome</a> with new tools for educators</p>
+            <p>Help kids<a href="https://www.google.com/url?q=https://beinternetawesome.withgoogle.com/en_us%3Futm_source%3Dgoogle%26utm_medium%3Dhpp%26utm_campaign%3DBIA%2520Curriculum%2520Refresh%25201&source=hpp&id=19024365&ct=3&usg=AFQjCNEQuG1inSgkvTPHfZBUNbaET5GeKQ&sa=X&ved=0ahUKEwjb29vg2ZzxAhVCGDQIHUcVDeYQ8IcBCBA" target="_blank">Be Internet Awesome</a>with new tools for educators</p>
         </div>
 
         <div class="div-cont" id="div-footer">
-            <a href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
-            <a href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
-            <a href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
-            <a href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Carbon neutral since 2007</a>
-            <a href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
-            <a href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
-            <a href="https://www.ladbible.com/cdn-cgi/image/width=1200,quality=70,format=jpeg,fit=cover,dpr=1/https%3A%2F%2Fs3-images.ladbible.com%2Fs3%2Fcontent%2Fbd9f19995fe03288211239f5ac6e093f.png">Settings</a> <!--can't replicate functionality, so using alt link-->
+            <a class="footer-buttons" href="https://www.google.com/intl/en_us/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Advertising</a>
+            <a class="footer-buttons" href="https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1">Business</a>
+            <a class="footer-buttons" href="https://google.com/search/howsearchworks/?fg=1">How Search works</a>
+            <a class="footer-buttons" id="footer-carbon-button" href="https://sustainability.google/commitments/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=">Carbon neutral since 2007</a>
+            <a class="footer-buttons" href="https://policies.google.com/privacy?hl=en&fg=1">Privacy</a>
+            <a class="footer-buttons" href="https://policies.google.com/terms?hl=en&fg=1">Terms</a>
+            <a class="footer-buttons" href="https://www.ladbible.com/cdn-cgi/image/width=1200,quality=70,format=jpeg,fit=cover,dpr=1/https%3A%2F%2Fs3-images.ladbible.com%2Fs3%2Fcontent%2Fbd9f19995fe03288211239f5ac6e093f.png">Settings</a> <!--can't replicate functionality, so using alt link-->
         </div>
     </body>
 </html>
